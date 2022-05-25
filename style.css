@@ -1,0 +1,76 @@
+html {
+    background-image: url("https://theartwolf.com/wp-content/uploads/2021/05/Peder_Severin_Kroyer_-_Hip_Hip_Hurrah_-_1888-1002x800.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Playfair Display', serif;
+}
+
+h1, h2 {
+    font-size: 40px;
+    word-spacing: 10px;
+    color: aliceblue;
+}
+h1 {
+    background-color: rgba(224, 192, 150, 0.37);
+    padding: 10px;
+    border-radius: 5px;
+}
+div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: rgba(224, 192, 150, 0.199);
+    padding: 10px;
+    border-radius: 5px;
+    width: min-content;
+    margin: auto;
+}
+#welcome-el {
+    font-size: 30px;
+    letter-spacing: 5px;
+    word-spacing: 10px;
+    font-weight: 900;
+    color: aliceblue;
+}
+#save-el {
+    color:aliceblue;
+    font-size: 18px;
+}
+#increment-btn {
+    background-color: rgb(152, 160, 80);
+    color: cornsilk;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+}
+#increment-btn:hover {
+    background-color: rgb(227, 240, 152);
+    color: rgb(59, 42, 9);
+}
+#save-btn:hover {
+    background-color: rgb(253, 233, 204);
+    color:rgb(59, 42, 9);
+}
+
+#save-btn {
+    background-color: rgb(160, 109, 80);
+    color: cornsilk;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+}
+
+
